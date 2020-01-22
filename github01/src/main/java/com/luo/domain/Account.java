@@ -1,6 +1,7 @@
 package com.luo.domain;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @Company：http://www.xxx.com
@@ -11,4 +12,6 @@ import java.io.Serializable;
 public class Account implements Serializable {
     private Integer number;
     private String name;
+
+    private Date time;
 }
